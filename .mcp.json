@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "lectures": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "Lecture_1/LecturesMcpServer/LecturesMcpServer.csproj",
+        "--no-launch-profile"
+      ]
+    }
+  }
+}
